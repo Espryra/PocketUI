@@ -5,14 +5,3 @@ api: 5.0.0
 author: PocketUI Team
 description: A comprehensive UI API library for PocketMine-MP developers to easily create custom GUIs and forms
 website: https://github.com/PocketUI/PocketUI
-
-commands:
-  pocketui:
-    description: "Open PocketUI demo interface"
-    usage: "/pocketui"
-    permission: pocketui.admin
-
-permissions:
-  pocketui.admin:
-    description: "Allows access to PocketUI admin commands"
-    default: op
